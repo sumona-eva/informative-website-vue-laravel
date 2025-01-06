@@ -7,7 +7,7 @@ public/storage
 
 
 # Cache and compiled files
-/bootstrap/cache/
+
 storage/framework/*
 storage/logs/*
 storage/debugbar/*
