@@ -4,14 +4,6 @@ node_modules/
 public/storage
 /storage/*.key
 .env
-
-
-# Cache and compiled files
-
-storage/framework/*
-storage/logs/*
-storage/debugbar/*
-
 # IDE files
 .idea
 .vscode
@@ -27,18 +19,6 @@ Thumbs.db
 
 # Composer
 composer.phar
-
-# Laravel Mix
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-/public/hot
-/public/js/*.js
-/public/js/*.js.map
-/public/css/*.css
-/public/css/*.css.map
-/public/mix-manifest.json
-/public/build/
 
 # Backup files
 *.bak
