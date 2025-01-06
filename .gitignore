@@ -4,7 +4,7 @@ node_modules/
 public/storage
 /storage/*.key
 .env
-.env.*
+
 
 # Cache and compiled files
 /bootstrap/cache/
