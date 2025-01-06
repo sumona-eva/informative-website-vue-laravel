@@ -1,0 +1,53 @@
+# Laravel-specific files
+/vendor/
+node_modules/
+public/storage
+/storage/*.key
+.env
+.env.*
+
+# Cache and compiled files
+/bootstrap/cache/
+storage/framework/*
+storage/logs/*
+storage/debugbar/*
+
+# IDE files
+.idea
+.vscode
+.sublime-
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Composer
+composer.phar
+
+# Laravel Mix
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/public/hot
+/public/js/*.js
+/public/js/*.js.map
+/public/css/*.css
+/public/css/*.css.map
+/public/mix-manifest.json
+/public/build/
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Testing
+phpunit.result.cache
+.phpunit.result.cache
+
+# Custom user-generated files
+/storage/app/public/*
