@@ -1,0 +1,18 @@
+@import url('../scss/app.scss');
+.swiper-button-prev, .swiper-button-next {
+    color:#1F2D3E !important;
+    /* border: 1px solid #01C3CC; */
+    width: 50px !important;
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px; */
+    border-radius: 100%;
+}
+.swiper-button-prev::after {
+    font-size:30px !important;
+}
+.swiper-button-next::after {
+    font-size:30px !important;
+}

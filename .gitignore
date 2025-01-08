@@ -1,0 +1,33 @@
+# Laravel-specific files
+/vendor/
+node_modules/
+public/storage
+/storage/*.key
+.env
+# IDE files
+.idea
+.vscode
+.sublime-
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Composer
+composer.phar
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Testing
+phpunit.result.cache
+.phpunit.result.cache
+
+# Custom user-generated files
+/storage/app/public/*

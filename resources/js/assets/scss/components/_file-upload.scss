@@ -1,0 +1,30 @@
+// multiple file upload
+.file-upload-container {
+    @apply w-full h-auto;
+    &-wrapper {
+        @apply border border-primary p-2 rounded-md flex flex-wrap gap-3;
+        &__preview {
+            @apply relative;
+            &-item {
+                @apply w-48 h-28 rounded-md object-cover;
+            }
+            &-cancel {
+                @apply bg-primary rounded-full flex items-center justify-center absolute top-1 right-1 h-6 w-6;
+            }
+        }
+        &__add {
+            label {
+                @apply border border-dashed border-primary flex items-center justify-center cursor-pointer rounded-md w-48 h-28;
+                span {
+                    @apply w-8 h-8 rounded-full flex items-center justify-center bg-primary shadow;
+                    svg {
+                        @apply w-5 h-5;
+                    }
+                }
+            }
+        }
+    }
+    .upload-image {
+        @apply inline-flex items-center gap-2 cursor-pointer;
+    }
+}
