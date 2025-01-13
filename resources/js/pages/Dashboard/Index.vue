@@ -52,26 +52,26 @@ onMounted(() => {
 <template>
     <AppLayout>
     <div class="flex flex-wrap mb-4">
-        <div class="w-1/4">
-            <div class="w-full bg-secondary p-3 border-b border-r border-gray-700">
+        <div class="w-1/4 px-3">
+            <div class="w-full bg-blue-700 text-white px-4 py-6 ">
                 <p class="text-4xl font-bold">{{data?.total_services}}</p>
                 Total Services
             </div>
         </div>
-        <div class="w-1/4">
-            <div class="w-full bg-secondary p-3 border-b border-r border-gray-700">
+        <div class="w-1/4 px-3">
+            <div class="w-full bg-orange-500 text-white  px-4 py-6">
                 <p class="text-4xl font-bold">{{ data?.total_packages }}</p>
                 Total Packages
             </div>
         </div>
-        <div class="w-1/4">
-            <div class="w-full bg-secondary p-3 border-b border-r border-gray-700">
+        <div class="w-1/4 px-3">
+            <div class="w-full bg-emerald-500 text-white  px-4 py-6">
                 <p class="text-4xl font-bold">{{ data?.total_projects }}</p>
                 Total Projects
             </div>
         </div>
-        <div class="w-1/4">
-            <div class="w-full bg-secondary p-3 border-b border-r border-gray-700">
+        <div class="w-1/4 px-3">
+            <div class="w-full bg-pink-600 text-white  px-4 py-6">
                 <p class="text-4xl font-bold">{{ data?.total_team }}</p>
                 Total Team Member
             </div>
@@ -79,7 +79,7 @@ onMounted(() => {
     </div>
     <div class="flex flex-wrap border border-slate-600">
             <div class="w-1/3 border-r border-b border-slate-600" v-for="data in request">
-                <div class="bg-secondary p-2 relative">
+                <div class="bg-secondary  p-2 relative">
                     <button @click="deleteRequest(data?.id)" class="absolute top-2 right-2">
                         <Icon name="material-symbols:delete-outline-sharp" />
                     </button>

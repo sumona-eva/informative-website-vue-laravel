@@ -12,91 +12,30 @@ const router = createRouter({
             name: 'Home',
             component: () => import('@/pages/Frontend/Index.vue')
         },
-        {
-            path: '/services',
-            name: 'Front.Services',
-            component: () => import('@/pages/Frontend/Services/Index.vue')
-        },
-        {
-            path: '/client',
-            name: 'Front.Client',
-            component: () => import('@/pages/Frontend/Client/Index.vue')
-        },
-        {
-            path: '/contact',
-            name: 'Contact',
-            component: () => import('@/pages/Frontend/Contact/Index.vue')
-        },
-        {
-            path: '/career',
-            name: 'Career',
-            component: () => import('@/pages/Frontend/Career/Index.vue')
-        },
-        {
-            path: '/media',
-            name: 'NewsMedia',
-            component: () => import('@/pages/Frontend/NewsMedia/Index.vue')
-        },
         // {
-        //     path:'/blog',
-        //     name:'Blog',
-        //     component: () => import('@/pages/Frontend/Blog.vue')
+        //     path: '/services',
+        //     name: 'Front.Services',
+        //     component: () => import('@/pages/Frontend/Services/Index.vue')
         // },
         // {
-        //     path:'/blog-detail/:slug',
-        //     name:'BlogDetail',
-        //     component: () => import('@/pages/Frontend/BlogDetail.vue')
-        // },
-        // {
-        //     path: '/portfolio',
-        //     name: 'Portfolio',
-        //     component: () => import('@/pages/Frontend/Portfolio.vue')
-        // },
-        // {
-        //     path: '/portfolio/:slug',
-        //     name: 'PortfolioDetail',
-        //     component: () => import('@/pages/Frontend/PortfolioDetail.vue')
+        //     path: '/client',
+        //     name: 'Front.Client',
+        //     component: () => import('@/pages/Frontend/Client/Index.vue')
         // },
         // {
         //     path: '/contact',
         //     name: 'Contact',
-        //     component: () => import('@/pages/Frontend/Contact.vue')
+        //     component: () => import('@/pages/Frontend/Contact/Index.vue')
         // },
         // {
-        //     path: '/about',
-        //     name: 'About',
-        //     component: () => import('@/pages/Frontend/About.vue')
-        // },
-        //
-        // {
-        //     path:'/team',
-        //     name:'OurTeam',
-        //     component: () => import('@/pages/Frontend/Team.vue')
+        //     path: '/career',
+        //     name: 'Career',
+        //     component: () => import('@/pages/Frontend/Career/Index.vue')
         // },
         // {
-        //     path:'/royal-service',
-        //     name:'Package',
-        //     component: () => import('@/pages/Frontend/Package.vue')
-        // },
-        // {
-        //     path:'/royal-service/:slug',
-        //     name:'PackageDetail',
-        //     component: () => import('@/pages/Frontend/PackageDetail.vue')
-        // },
-        // {
-        //     path:'/trending',
-        //     name:'Trending',
-        //     component: () => import('@/pages/Frontend/Trending.vue')
-        // },
-        // {
-        //     path:'/terms-and-copyright',
-        //     name:'TermsConditions',
-        //     component: () => import('@/pages/Frontend/TermsConditions.vue')
-        // },
-        // {
-        //     path:'/privacy-policy',
-        //     name:'PrivacyPolicy',
-        //     component: () => import('@/pages/Frontend/PrivacyPolicy.vue')
+        //     path: '/media',
+        //     name: 'NewsMedia',
+        //     component: () => import('@/pages/Frontend/NewsMedia/Index.vue')
         // },
         // {
         //     path: '/admin',

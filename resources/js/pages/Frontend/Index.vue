@@ -1,21 +1,20 @@
 <script setup>
-  import HeroSection from '@/components/Home/HeroSection.vue';
-  import GuestLayout from "@/components/Layouts/GuestLayout.vue";
-  import HistorySection from "@/components/Home/HistorySection.vue";
-  import CoreSection from "@/components/Home/CoreSection.vue";
-  import MessageSection from "@/components/Home/MessageSection.vue";
-  import ServiceSection from "@/components/Home/ServiceSection.vue";
-  import ChoosUsSection from "@/components/Home/ChoosUsSection.vue";
-  import ClientSection from "@/components/Home/ClientSection.vue";
+
+import GuestLayout from "@/components/Layouts/GuestLayout.vue";
+import Container from "@/components/Layouts/Container.vue";
+import HeroSection from "@/components/Home/HeroSection.vue";
+import CategorySection from "@/components/Home/CategorySection.vue";
+import ProductSection from "@/components/Home/ProductSection.vue";
+import AboutSection from "@/components/Home/AboutSection.vue";
 </script>
 <template>
     <GuestLayout>
-      <HeroSection />
-      <HistorySection />
-      <CoreSection />
-      <MessageSection />
-      <ServiceSection />
-      <ChoosUsSection />
-      <ClientSection />
+
+        <HeroSection />
+        <AboutSection />
+        <CategorySection />
+        <ProductSection />
+
+
     </GuestLayout>
 </template>

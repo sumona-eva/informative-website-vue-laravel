@@ -27,7 +27,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-    <div class="flex justify-between items-center bg-secondary border-b border-gray-700 p-2">
+    <div class="flex justify-between items-center bg-white border-b border-gray-700 p-2">
         <div>
             <h2>Hi {{authStore?.user?.user?.name }}</h2>
             <p>Welcome To Dashboard</p>

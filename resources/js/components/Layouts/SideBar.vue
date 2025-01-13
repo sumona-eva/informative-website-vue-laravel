@@ -11,7 +11,7 @@ const props = defineProps({
     <div class="mx-auto">
         <div>
             <div class="flex items-center gap-3 p-5">
-                <img class="w-32 h-auto" src="@/assets/images/eye-art-logo.png">
+<!--                <img class="w-32 h-auto" src="@/assets/images/eye-art-logo.png">-->
             </div>
             <p class="pl-5 text-gray-400 mb-3">Pages</p>
             <ul class="flex flex-col gap-5 px-5 ">
@@ -20,7 +20,7 @@ const props = defineProps({
                         <div>
                             <Icon name="ic:twotone-dashboard-customize" size="20" class="text-primary" />
                         </div>
-                        <p  v-if="text" class="text-white">Dashboard</p>
+                        <p  v-if="text" class="text-primary">Dashboard</p>
                     </RouterLink>
                 </li>
                 <li>
@@ -28,7 +28,7 @@ const props = defineProps({
                         <div>
                             <Icon name="material-symbols:service-toolbox-sharp" size="20" class="text-primary" />
                         </div>
-                        <p  v-if="text" class="text-white">Services</p>
+                        <p  v-if="text" class="text-primary">Services</p>
                     </RouterLink>
                 </li>
                 <li>
@@ -36,7 +36,7 @@ const props = defineProps({
                         <div>
                             <Icon   name="carbon:ibm-data-product-exchange" size="20" class="text-primary" />
                         </div>
-                        <p  v-if="text" class="text-white">Project Category</p>
+                        <p  v-if="text" class="text-primary">Project Category</p>
                     </RouterLink>
                 </li>
                 <li>
@@ -44,7 +44,7 @@ const props = defineProps({
                         <div>
                             <Icon   name="carbon:ibm-data-product-exchange" size="20" class="text-primary" />
                         </div>
-                        <p  v-if="text" class="text-white">Projects</p>
+                        <p  v-if="text" class="text-primary">Projects</p>
                     </RouterLink>
                 </li>
                 <li>
@@ -52,7 +52,7 @@ const props = defineProps({
                         <div >
                             <Icon name="solar:gallery-check-bold" size="20" class="text-primary" />
                         </div>
-                        <p  v-if="text" class="text-white">Service Request</p>
+                        <p  v-if="text" class="text-primary">Service Request</p>
                     </RouterLink>
                 </li>
                 <li>
@@ -60,7 +60,7 @@ const props = defineProps({
                         <div >
                             <Icon name="solar:gallery-check-bold" size="20" class="text-primary" />
                         </div>
-                        <p  v-if="text" class="text-white">Team Member</p>
+                        <p  v-if="text" class="text-primary">Team Member</p>
                     </RouterLink>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ const props = defineProps({
                         <div >
                             <Icon name="solar:gallery-check-bold" size="20" class="text-primary" />
                         </div>
-                        <p   class="text-white">Package</p>
+                        <p   class="text-primary">Package</p>
                     </RouterLink>
                 </li>
                 <li>
@@ -76,7 +76,7 @@ const props = defineProps({
                         <div >
                             <Icon name="solar:gallery-check-bold" size="20" class="text-primary" />
                         </div>
-                        <p   class="text-white">Trending</p>
+                        <p   class="text-primary">Trending</p>
                     </RouterLink>
                 </li>
 				<li>
@@ -84,7 +84,7 @@ const props = defineProps({
                         <div >
                             <Icon name="solar:gallery-check-bold" size="20" class="text-primary" />
                         </div>
-                        <p   class="text-white">Review</p>
+                        <p   class="text-primary">Review</p>
                     </RouterLink>
                 </li>
                 <li>

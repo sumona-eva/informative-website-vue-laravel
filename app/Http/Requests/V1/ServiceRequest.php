@@ -22,15 +22,14 @@ class ServiceRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'required|string|max:200|unique:services',
-            'title' => 'required|string|max:255',
-            'slug' => 'nullable',
-            'icon' => 'nullable',
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,webp|max:1024',
-            'order_number' => 'required|integer',
-            'description' => 'nullable|string',
+            'name' => 'required|max:255',
+            'slug' => 'required|max:255',
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            'short_description' => 'nullable|max:255',
+            'description' => 'nullable|max:255',
+            'order_level' => 'required|max:255',
+            'status' => 'nullable|max:255',
+
         ];
     }
-
-    protected $stopOnFirstFailure = true;
 }
